@@ -104,8 +104,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nNS-Ip-rkh">
-                                <rect key="frame" x="137" y="406" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="89" y="406" width="141" height="30"/>
+                                <state key="normal" title="Book Lesson"/>
                                 <connections>
                                     <action selector="submitLesson:" destination="XcB-Jy-AbR" eventType="touchUpInside" id="ouI-gV-ZoF"/>
                                 </connections>
@@ -115,8 +115,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpw-jk-4Dg">
-                                <rect key="frame" x="137" y="91" width="42" height="21"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wGH-aS-kLh">
+                                <rect key="frame" x="95" y="59" width="130" height="30"/>
+                                <state key="normal" title="View Profile"/>
+                                <connections>
+                                    <action selector="viewProfile:" destination="XcB-Jy-AbR" eventType="touchUpInside" id="VXc-AC-eXY"/>
+                                    <segue destination="oGk-XP-SHj" kind="show" identifier="profile" id="hTz-My-20q"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q5a-rK-8h9">
+                                <rect key="frame" x="15" y="119" width="291" height="79"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -131,14 +139,19 @@
                             <constraint firstItem="nNS-Ip-rkh" firstAttribute="centerX" secondItem="XhS-bM-gZP" secondAttribute="centerX" id="I4e-ly-3ZF"/>
                             <constraint firstItem="CRa-O9-amV" firstAttribute="top" secondItem="XhS-bM-gZP" secondAttribute="bottom" constant="210" id="JOE-Yy-GOt"/>
                             <constraint firstItem="NCY-Ka-fPs" firstAttribute="leading" secondItem="Wz3-0F-V7M" secondAttribute="leading" id="Njb-WG-AiQ"/>
+                            <constraint firstItem="nNS-Ip-rkh" firstAttribute="leading" secondItem="fXr-KW-PLL" secondAttribute="leadingMargin" constant="73" id="UHH-Ya-V1D"/>
+                            <constraint firstItem="wGH-aS-kLh" firstAttribute="centerX" secondItem="NCY-Ka-fPs" secondAttribute="centerX" id="XA4-w4-bH0"/>
+                            <constraint firstItem="wGH-aS-kLh" firstAttribute="top" secondItem="FSm-N1-MqO" secondAttribute="bottom" constant="39" id="cto-Bb-4u8"/>
                             <constraint firstItem="Wz3-0F-V7M" firstAttribute="top" secondItem="NCY-Ka-fPs" secondAttribute="bottom" constant="8" symbolic="YES" id="khF-mh-PJT"/>
                             <constraint firstItem="nNS-Ip-rkh" firstAttribute="top" secondItem="XhS-bM-gZP" secondAttribute="bottom" constant="48" id="ndw-Yd-Mo0"/>
                             <constraint firstItem="XhS-bM-gZP" firstAttribute="top" secondItem="Wz3-0F-V7M" secondAttribute="bottom" constant="8" symbolic="YES" id="rOg-Tx-cfZ"/>
                             <constraint firstItem="NCY-Ka-fPs" firstAttribute="centerX" secondItem="fXr-KW-PLL" secondAttribute="centerX" id="sJw-bO-E5f"/>
+                            <constraint firstItem="wGH-aS-kLh" firstAttribute="leading" secondItem="fXr-KW-PLL" secondAttribute="leadingMargin" constant="79" id="uYD-LG-5b3"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="lessonLabel" destination="Q5a-rK-8h9" id="Jqa-ED-N2I"/>
                         <outlet property="place" destination="Wz3-0F-V7M" id="MIM-ba-SIx"/>
                         <outlet property="skill" destination="XhS-bM-gZP" id="Erb-8q-Mrd"/>
                         <outlet property="time" destination="NCY-Ka-fPs" id="vMh-Jx-IwB"/>
@@ -146,7 +159,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ji5-Hi-pvE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="349" y="354"/>
+            <point key="canvasLocation" x="387" y="146"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fmu-Af-axO">
+            <objects>
+                <viewController id="oGk-XP-SHj" customClass="ViewController" customModule="Horea_Porutiu_Tennis_Lessons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="KK7-Zv-OFr"/>
+                        <viewControllerLayoutGuide type="bottom" id="dON-Qf-Mfi"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1w6-l0-up5">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r6j-kJ-9p4">
+                                <rect key="frame" x="137" y="421" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="backToLessons:" destination="oGk-XP-SHj" eventType="touchUpInside" id="DJA-6q-WvT"/>
+                                    <segue destination="XcB-Jy-AbR" kind="show" identifier="backToLesson" id="Oxf-ck-0KX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Joh-iJ-yuG">
+                                <rect key="frame" x="14" y="63" width="292" height="109"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="profileLabel" destination="Joh-iJ-yuG" id="6SU-1Y-UDv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kJ5-2b-EPA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="816" y="146"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Oxf-ck-0KX"/>
+    </inferredMetricsTieBreakers>
 </document>
