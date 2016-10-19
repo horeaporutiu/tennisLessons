@@ -1,0 +1,6 @@
+framework module Pods_Horea_Porutiu_Tennis_Lessons {
+  umbrella header "Pods-Horea Porutiu Tennis Lessons-umbrella.h"
+
+  export *
+  module * { export * }
+}
