@@ -35,7 +35,7 @@
                                     <constraint firstAttribute="width" constant="280" id="Tel-j4-XJS"/>
                                 </constraints>
                                 <state key="normal" title="Login">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="clickLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="akN-MK-t0f"/>
@@ -48,7 +48,7 @@
                                     <constraint firstAttribute="height" constant="30" id="TQi-4P-Sjq"/>
                                 </constraints>
                                 <state key="normal" title="Sign Up">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quick n' Easy Tennis Booking!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4F-jA-anC">
@@ -57,7 +57,7 @@
                                     <constraint firstAttribute="height" constant="36" id="2n9-x7-cLY"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="highlightedColor" red="0.27512615359999998" green="0.87324116490000003" blue="0.26483208740000003" alpha="1" colorSpace="calibratedRGB"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Servr" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O2V-iU-2u7">
@@ -69,8 +69,11 @@
                                 <color key="textColor" red="0.83921568627450982" green="0.9882352941176471" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tennisServe.png" translatesAutoresizingMaskIntoConstraints="NO" id="HZ2-6h-gii">
+                                <rect key="frame" x="32" y="51" width="59" height="96"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.21993726809983791" green="0.47160675725150558" blue="0.81374897823094128" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0350912792222094" green="0.075245475879426496" blue="0.12983471541042846" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="ZMp-cU-7Uj" firstAttribute="centerX" secondItem="xt7-fH-HOn" secondAttribute="centerX" id="3Xo-XH-slI"/>
                             <constraint firstItem="O2V-iU-2u7" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-4" id="96k-WR-mlJ"/>
@@ -372,6 +375,9 @@
             <point key="canvasLocation" x="693" y="817"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="tennisServe.png" width="197" height="350"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="fBB-gc-YP3"/>
         <segue reference="BWx-dK-INn"/>
