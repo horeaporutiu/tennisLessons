@@ -17,6 +17,10 @@
 		6D9745811D9B0A1F00A64277 /* Horea_Porutiu_Tennis_LessonsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9745801D9B0A1F00A64277 /* Horea_Porutiu_Tennis_LessonsUITests.swift */; };
 		80024F0D1DB9C58600AD419D /* csusa-tennis-player.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80024F0C1DB9C58600AD419D /* csusa-tennis-player.jpg */; };
 		80024F121DB9CB5D00AD419D /* tennisServe.png in Resources */ = {isa = PBXBuildFile; fileRef = 80024F111DB9CB5D00AD419D /* tennisServe.png */; };
+		80024F141DB9D4E000AD419D /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 80024F131DB9D4E000AD419D /* plus.png */; };
+		80024F161DB9D4E500AD419D /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 80024F151DB9D4E500AD419D /* home.png */; };
+		80024F181DB9D5A700AD419D /* rsz_plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 80024F171DB9D5A700AD419D /* rsz_plus.png */; };
+		80024F1A1DB9D5E800AD419D /* rsz_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 80024F191DB9D5E800AD419D /* rsz_home.png */; };
 		8059B4681DB7E43800BB4958 /* ViewProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8059B4671DB7E43800BB4958 /* ViewProfileTableViewController.swift */; };
 		8075356D1DB4802B001C399E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8075356C1DB4802B001C399E /* GoogleService-Info.plist */; };
 		D8D9E2E72F88CE2A75AA9FB4 /* Pods_Horea_Porutiu_Tennis_Lessons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5089CEAA92224AA8A0D6E4D7 /* Pods_Horea_Porutiu_Tennis_Lessons.framework */; };
@@ -58,6 +62,10 @@
 		6D9745821D9B0A1F00A64277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80024F0C1DB9C58600AD419D /* csusa-tennis-player.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "csusa-tennis-player.jpg"; sourceTree = "<group>"; };
 		80024F111DB9CB5D00AD419D /* tennisServe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tennisServe.png; sourceTree = "<group>"; };
+		80024F131DB9D4E000AD419D /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
+		80024F151DB9D4E500AD419D /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		80024F171DB9D5A700AD419D /* rsz_plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_plus.png; sourceTree = "<group>"; };
+		80024F191DB9D5E800AD419D /* rsz_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rsz_home.png; sourceTree = "<group>"; };
 		8059B4671DB7E43800BB4958 /* ViewProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewProfileTableViewController.swift; sourceTree = "<group>"; };
 		8075356C1DB4802B001C399E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		AC2A527F7985370B4ADF356B /* Pods-Horea Porutiu Tennis Lessons.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Horea Porutiu Tennis Lessons.release.xcconfig"; path = "Pods/Target Support Files/Pods-Horea Porutiu Tennis Lessons/Pods-Horea Porutiu Tennis Lessons.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,12 +134,16 @@
 				80024F0C1DB9C58600AD419D /* csusa-tennis-player.jpg */,
 				6D97455D1D9B0A1F00A64277 /* AppDelegate.swift */,
 				6D97455F1D9B0A1F00A64277 /* ViewController.swift */,
+				80024F191DB9D5E800AD419D /* rsz_home.png */,
+				80024F151DB9D4E500AD419D /* home.png */,
 				6D9745611D9B0A1F00A64277 /* Main.storyboard */,
 				8075356C1DB4802B001C399E /* GoogleService-Info.plist */,
 				80024F111DB9CB5D00AD419D /* tennisServe.png */,
 				6D9745671D9B0A1F00A64277 /* Assets.xcassets */,
 				6D9745691D9B0A1F00A64277 /* LaunchScreen.storyboard */,
 				6D97456C1D9B0A1F00A64277 /* Info.plist */,
+				80024F171DB9D5A700AD419D /* rsz_plus.png */,
+				80024F131DB9D4E000AD419D /* plus.png */,
 				6D9745641D9B0A1F00A64277 /* Horea_Porutiu_Tennis_Lessons.xcdatamodeld */,
 				8059B4671DB7E43800BB4958 /* ViewProfileTableViewController.swift */,
 			);
@@ -274,8 +286,12 @@
 				80024F121DB9CB5D00AD419D /* tennisServe.png in Resources */,
 				6D97456B1D9B0A1F00A64277 /* LaunchScreen.storyboard in Resources */,
 				6D9745681D9B0A1F00A64277 /* Assets.xcassets in Resources */,
+				80024F181DB9D5A700AD419D /* rsz_plus.png in Resources */,
 				8075356D1DB4802B001C399E /* GoogleService-Info.plist in Resources */,
+				80024F161DB9D4E500AD419D /* home.png in Resources */,
 				6D9745631D9B0A1F00A64277 /* Main.storyboard in Resources */,
+				80024F141DB9D4E000AD419D /* plus.png in Resources */,
+				80024F1A1DB9D5E800AD419D /* rsz_home.png in Resources */,
 				80024F0D1DB9C58600AD419D /* csusa-tennis-player.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
