@@ -10,42 +10,105 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Horea Porutiu Tennis Lessons/ViewController.swift"
-            timestampString = "498587665.764852"
+            timestampString = "498703212.485543"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "111"
-            endingLineNumber = "111"
-            landmarkName = "viewProfile(_:)"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
+            landmarkName = "viewDidLoad()"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498698971.927498"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498698971.927498"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498676148.154661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewProfileTableViewController"
+            landmarkType = "3">
             <Locations>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Horea_Porutiu_Tennis_Lessons.ViewController.loginClicked (Swift.AnyObject) -&gt; ()"
+                  symbolName = "Horea_Porutiu_Tennis_Lessons.ViewProfileTableViewController.init (style : __C.UITableViewStyle) -&gt; Horea_Porutiu_Tennis_Lessons.ViewProfileTableViewController"
                   moduleName = "Horea Porutiu Tennis Lessons"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Horhouse/Desktop/Life/Horea%20Porutiu%20Tennis%20Lessons/Horea%20Porutiu%20Tennis%20Lessons/ViewController.swift"
-                  timestampString = "498414868.96677"
+                  urlString = "file:///Users/Horhouse/Desktop/Life/Horea%20Porutiu%20Tennis%20Lessons/Horea%20Porutiu%20Tennis%20Lessons/ViewProfileTableViewController.swift"
+                  timestampString = "498697028.759892"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "28"
-                  endingLineNumber = "28"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
                   offsetFromSymbolStart = "19">
                </Location>
                <Location
                   shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "Horea_Porutiu_Tennis_Lessons.ViewController.(loginClicked (Swift.AnyObject) -&gt; ()).(closure #1)"
+                  symbolName = "Horea_Porutiu_Tennis_Lessons.ViewProfileTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Horea_Porutiu_Tennis_Lessons.ViewProfileTableViewController"
                   moduleName = "Horea Porutiu Tennis Lessons"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Horhouse/Desktop/Life/Horea%20Porutiu%20Tennis%20Lessons/Horea%20Porutiu%20Tennis%20Lessons/ViewController.swift"
-                  timestampString = "498414868.966962"
+                  urlString = "file:///Users/Horhouse/Desktop/Life/Horea%20Porutiu%20Tennis%20Lessons/Horea%20Porutiu%20Tennis%20Lessons/ViewProfileTableViewController.swift"
+                  timestampString = "498697028.760047"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "32"
-                  endingLineNumber = "32"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "57">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Horea_Porutiu_Tennis_Lessons.ViewProfileTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Horea_Porutiu_Tennis_Lessons.ViewProfileTableViewController&gt;"
+                  moduleName = "Horea Porutiu Tennis Lessons"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Horhouse/Desktop/Life/Horea%20Porutiu%20Tennis%20Lessons/Horea%20Porutiu%20Tennis%20Lessons/ViewProfileTableViewController.swift"
+                  timestampString = "498697028.760201"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
@@ -57,13 +120,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Horea Porutiu Tennis Lessons/ViewController.swift"
-            timestampString = "498587665.764852"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498698971.927498"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "96"
-            endingLineNumber = "96"
-            landmarkName = "clickLogin(_:)"
+            startingLineNumber = "102"
+            endingLineNumber = "102"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,13 +136,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Horea Porutiu Tennis Lessons/ViewController.swift"
-            timestampString = "498588029.953672"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498700315.3099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "172"
-            endingLineNumber = "172"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
+            landmarkName = "tableView(_:commitEditingStyle:forRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -89,13 +152,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Horea Porutiu Tennis Lessons/ViewController.swift"
-            timestampString = "498588029.953672"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498698971.927498"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498700306.721265"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "134"
             endingLineNumber = "134"
-            landmarkName = "submitLesson(_:)"
+            landmarkName = "tableView(_:commitEditingStyle:forRowAtIndexPath:)"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -105,12 +184,28 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Horea Porutiu Tennis Lessons/ViewController.swift"
-            timestampString = "498588029.953672"
+            filePath = "Horea Porutiu Tennis Lessons/ViewProfileTableViewController.swift"
+            timestampString = "498700307.737256"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "tableView(_:commitEditingStyle:forRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Horea Porutiu Tennis Lessons/ViewController.swift"
+            timestampString = "498703212.485543"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "139"
+            endingLineNumber = "139"
             landmarkName = "submitLesson(_:)"
             landmarkType = "5">
          </BreakpointContent>

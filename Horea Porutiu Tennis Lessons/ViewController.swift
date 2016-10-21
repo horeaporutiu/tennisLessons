@@ -15,11 +15,14 @@ class Lesson {
     internal var mLocation: String = "test"
     internal var mSkillLevel: String = "test"
     internal var mDateTime: String = "test"
+    internal var mID : String = "test"
     
-    init(Location: String, SkillLevel: String, DateTime: String) {
+    init(Location: String, SkillLevel: String, DateTime: String, ID: String) {
         self.mLocation = Location
         self.mSkillLevel = SkillLevel
         self.mDateTime = DateTime
+        self.mID = ID
+        
     }
     
 }
@@ -45,7 +48,9 @@ class Users {
 class ViewController: UIViewController, UITableViewDelegate
 {
    
-
+    @IBOutlet var date: UIDatePicker!
+    
+    var arr = []
     
     var cellContent = ["Rob", "Kirsten", "Tommy", "Ralphie"]
     
@@ -105,60 +110,50 @@ class ViewController: UIViewController, UITableViewDelegate
     
     @IBAction func viewProfile(sender: AnyObject) {
         print("before profile segue")
-        self.performSegueWithIdentifier("profile", sender: self)
-        //lessonLabel.text =
-        
-        
-       
-        
-        
     }
     
+    
     @IBAction func backToLessons(sender: AnyObject) {
-        self.performSegueWithIdentifier("backToLesson", sender: self)
+        //self.performSegueWithIdentifier("backToLesson", sender: self)
 
     }
     
+    @IBAction func beginnerPressed(sender: AnyObject) {
+        self.skill.text = "Beginner"
+    }
     
     @IBAction func submitLesson(sender: AnyObject) {
         
-      
-        
-        let lessonsRef = self.rootRef.child("users").child("KmJA3BGL15WgEm9awEqbA193VUE3")
-        
-        let newRef = lessonsRef.childByAutoId()
-        
-        newRef.updateChildValues(["Time": self.time.text!, "Location": self.place.text!, "Skill Level": self.skill.text!])
-        
-       //let lesson = Lesson(Location: self.place.text!, SkillLevel: self.skill.text!, DateTime: self.time.text!)
         
         
-    //setValue(["Time": self.time.text!, "Location": self.place.text!, "Skill Level": self.skill.text!])
-       // DatabaseReference usersRef = ref.child("users");
-        
-        //Map<String, Lesson> users = new HashMap<String, Lesson>();
-        //users.put("Lesson1", lesson);
-        
-        //self.rootRef.child("users").child("KmJA3BGL15WgEm9awEqbA193VUE3").child("Lessons" ).setValue(["Time": self.time.text!, "Location": self.place.text!, "Skill Level": self.skill.text!]);
-        
-        /*let baseRef = FIRDatabase.database().reference().child("users")
-        
-        
-        baseRef.child("KmJA3BGL15WgEm9awEqbA193VUE3").child("Lessons").observeSingleEventOfType(.Value, withBlock:
+        let alertController = UIAlertController(title: "Confirm Lesson", message: "Do you want to confirm this lesson? A confirmation will be sent to your Servr.", preferredStyle: UIAlertControllerStyle.Alert)
+        let okAction = UIAlertAction(title: "OK", style: UIAlertActionStyle.Default) { (result : UIAlertAction) -> Void in
+            print("OK")
+            let lessonsRef = self.rootRef.child("users").child("KmJA3BGL15WgEm9awEqbA193VUE3")
             
-            { (snapshot) in
-                
-                if (!snapshot.exists()) {
-                    print ("oops")
-                }
-                else {
-                    //self.label.text = String(snapshot.value)
-                    self.label.text = String(snapshot.value)
-                }
-        })*/
+            let newRef = lessonsRef.childByAutoId()
+            print(newRef)
+            
+            let lessonTime = NSDateFormatter.localizedStringFromDate(self.date.date, dateStyle: NSDateFormatterStyle.ShortStyle, timeStyle: NSDateFormatterStyle.ShortStyle)
+            
+            newRef.updateChildValues(["Location": self.place.text!, "Skill Level": self.skill.text!, "Time": lessonTime, "ID": newRef])
+            self.performSegueWithIdentifier("confirmation", sender: self)
 
+            
+            
+        }
         
-        print("submitted")
+        let cancelAction = UIAlertAction(title: "Cancel", style: .Default) { (alert: UIAlertAction!) -> Void in
+            //print("You pressed Cancel")
+        }
+        
+
+        alertController.addAction(cancelAction)
+        alertController.addAction(okAction)
+
+        self.presentViewController(alertController, animated: true, completion: nil)
+        
+        
     }
     
     
